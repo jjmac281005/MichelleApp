@@ -22,7 +22,7 @@
         <EditText
             android:id="@+id/edtA"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:hint="Nilai Pertama (A)"
             android:inputType="numberDecimal"
             android:layout_marginTop="40dp"/>
@@ -30,27 +30,27 @@
         <EditText
             android:id="@+id/edtB"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:hint="Nilai Kedua (B)"
             android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/btnTambah"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="20dp"
             android:text="Tambah" />
 
         <Button
             android:id="@+id/btnKali"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="Kali" />
 
         <Button
             android:id="@+id/btnBagi"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="Bagi" />
 
         <TextView
