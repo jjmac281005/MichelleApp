@@ -13,12 +13,12 @@
         android:theme="@style/Theme.MichelleApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".MichelleActivity"
             android:exported="false" />
         <activity
-            android:name=".MichelleActivity"
+            android:name=".KalkulatorActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="Kalkulator Sederhana: Michelle"
             android:theme="@style/Theme.MichelleApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
